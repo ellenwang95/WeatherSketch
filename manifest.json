@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Weather Sketch",
+  "description": "Know the weather through a cute little sketch :)",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_title": "Weather Sketch"
+  },
+  "icons": {
+    "16": "umbrella_icon_16.png",
+    "48": "umbrella_icon_48.png",
+    "128": "umbrella_icon_128.png"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": [
+   "activeTab"
+   ]
+}
